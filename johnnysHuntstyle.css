@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+.playgroung {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 50px auto;
+}
+
+.johnnys {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 10%;
+  height: 10%;
+  background-color: lightskyblue;
+  border-radius: 10px;
+}
+
+form {
+  text-align: center;
+  border: 10000px solid rgba(0, 0, 0, 0.3);
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 3rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#article1 {
+  text-align: left;
+  color: white;
+  background-color: orange;
+  border-radius: 10px;
+}
+#article2 {
+  text-align: right;
+  color: white;
+  background-color: orange;
+  border-radius: 10px;
+}
+#button {
+  margin-left: 50%;
+}
