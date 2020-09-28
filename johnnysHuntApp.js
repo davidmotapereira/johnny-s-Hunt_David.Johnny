@@ -25,10 +25,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
     document.removeEventListener("keydown", moveCube);
     target.removeEventListener("click", shoot);
   }, 30000);
-<<<<<<< HEAD
   
-=======
->>>>>>> 20b0cda4d680673f7b632c0ed72b5601cb3bb5fc
 });
 
 function moveCube(event) {
