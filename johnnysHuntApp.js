@@ -22,7 +22,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
     document.querySelector(".johnnys").innerText = "KB Wins";
     document.removeEventListener("keydown", moveCube);
     target.removeEventListener("click", shoot);
-  }, 5000);
+  }, 30000);
 });
 
 function moveCube(event) {
